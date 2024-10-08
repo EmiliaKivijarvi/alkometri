@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>ALkometri</title>
+    </head>
+    <body>
+        <div id="container">
+            <h3>Alkometri</h3>
+            <div>
+                <label>Paino</label>
+                <input type="number"/>
+            </div>
+            <div>
+                <label>Aika</label>
+                <select id="time">
+                    <option value="1">1 tunti</option>
+                    <option value="2">2 tuntia</option>
+                    <option value="3">3 tuntia</option>
+                    <option value="4">4 tuntia</option>
+                    <option value="5">5 tuntia</option>
+                    <option value="6">6 tuntia</option>
+                    <option value="7">7 tuntia</option>
+                    <option value="8">8 tuntia</option>
+                    <option value="9">9 tuntia</option>
+                </select>
+            </div>
+            <div>
+                <label>Pullot</label>
+                <select id="bottles">
+                    <option value="1">1 pullo</option>
+                    <option value="2">2 pulloa</option>
+                    <option value="3">3 pulloa</option>
+                    <option value="4">4 pulloa</option>
+                    <option value="5">5 pulloa</option>
+                    <option value="6">6 pulloa</option>
+                    <option value="7">7 pulloa</option>
+                    <option value="8">8 pulloa</option>
+                    <option value="9">9 pulloa</option>
+                    <option value="10">10 pulloa</option>
+                </select>
+            </div>
+            <div>
+                <label>Sukupuoli</label>
+                <input type="radio" name="gender" value="male" checked/> <label>Mies</label>
+                <input type="radio" name="gender" value="female"/> <label>Nainen</label>
+            </div>
+            <div>
+                <label>Promillet</label>
+                <output></output>
+            </div>
+            <div>
+                <button type="button" id="calculate">Laske</button>
+            </div>
+        </div>
+        <script src="./js/functions.js"></script>
+    </body>
+</html>
